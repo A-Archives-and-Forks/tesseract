@@ -114,8 +114,8 @@ Please report an issue only for a **bug**, not for asking questions.
 
 **NOTE**: This software depends on other packages that may be licensed under different open source licenses.
 
-Tesseract uses [Leptonica library](http://leptonica.com/) which essentially
-uses a [BSD 2-clause license](http://leptonica.com/about-the-license.html).
+Tesseract uses the [Leptonica library](http://www.leptonica.org/) which essentially
+uses a [BSD 2-clause license](http://www.leptonica.org/about-the-license.html).
 
 ## Dependencies
 
