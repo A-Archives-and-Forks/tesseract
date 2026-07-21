@@ -326,7 +326,7 @@ case "${host_os}" in
 esac
 
 # check whether to build tesseract with -fvisibility=hidden -fvisibility-inlines-hidden
-# http://gcc.gnu.org/wiki/Visibility
+# https://gcc.gnu.org/wiki/Visibility
 # https://groups.google.com/g/tesseract-dev/c/l2ZFrpgYkSc/m/_cdYSRDSXuUJ
 AC_MSG_CHECKING([--enable-visibility argument])
 AC_ARG_ENABLE([visibility],

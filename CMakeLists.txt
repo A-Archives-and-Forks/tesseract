@@ -844,7 +844,7 @@ if(WIN32
    AND CLANG
    AND OPENMP_BUILD)
   # Workaround for "libomp.lib is not automatically added on Windows" see:
-  # http://lists.llvm.org/pipermail/openmp-dev/2015-August/000857.html
+  # https://lists.llvm.org/pipermail/openmp-dev/2015-August/000857.html
   target_link_libraries(libtesseract PRIVATE ${OpenMP_LIBRARY})
 endif()
 

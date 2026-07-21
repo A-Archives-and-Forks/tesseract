@@ -389,7 +389,7 @@ string UnicodeText::DebugString() const {
 
 // The implementation of const_iterator would be nicer if it
 // inherited from boost::iterator_facade
-// (http://boost.org/libs/iterator/doc/iterator_facade.html).
+// (https://www.boost.org/doc/libs/latest/libs/iterator/doc/iterator_facade.html).
 
 UnicodeText::const_iterator::const_iterator() : it_(nullptr) {}
 
